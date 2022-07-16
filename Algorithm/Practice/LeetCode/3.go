@@ -1,13 +1,13 @@
 package LeetCode
 
-func LengthOfLongestSubstring(s string) int {
+func lengthOfLongestSubstring(s string) int {
 	if len(s) == 0 {
 		return 0
 	}
 	result := 0
 	// abcabcbb
 	for i, c := range s {
-		m := make(map[int32]bool)
+		m := make(map[rune]bool)
 		m[c] = true
 		// starts with c
 		for _, cc := range s[i+1:] {
