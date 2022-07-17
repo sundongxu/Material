@@ -1,5 +1,7 @@
 package LeetCode
 
+import "math"
+
 // 8. String to Integer (atoi)
 func myAtoi(s string) int {
 	num, sign, n := 0, 1, len(s)
@@ -19,7 +21,9 @@ func myAtoi(s string) int {
 	}
 
 	// 不能直接用math.MaxInt和math.MinInt，可能是2的64次方，与机器位数有关
-	maxInt, minInt := 1<<31-1, -(1 << 31)
+	// 可以直接用math.MaxInt32和math.MinInt32
+	//maxInt, minInt := 1<<31-1, -(1 << 31)
+	maxInt, minInt := math.MaxInt32, math.MinInt32
 	for ; i < n; i++ {
 		if s[i] < '0' || s[i] > '9' {
 			break
