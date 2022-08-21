@@ -1,11 +1,6 @@
-package main
+package LeetCode
 
-import "fmt"
-
-func main() {
-	result := minWindow("AAOBECODEBANC", "ABC")
-	fmt.Println("result=", result)
-}
+// 76. Minimum Window Substring
 
 func minWindow(s string, t string) string {
 	if s == "" || t == "" {
@@ -42,6 +37,8 @@ func minWindow(s string, t string) string {
 				finalRight = right
 			}
 			if right+1 == len(s) && count < len(t) {
+				// 右指针已经达到边界，并且此时有效字符计数值仍不满足要求
+				// 而因为此后只能通过右移左指针缩小窗口，字符只会越来越少，不可能再满足题目要求的解了，此时可提前结束循环
 				break
 			}
 			// 下一步准备移动s左指针，所以要把s左指针对应字符计数给相应减去
