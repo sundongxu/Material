@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 146. LRU Cache
+ * 描述：
+ * 难度：Medium
+ * 类型：
+ */
 type LRUCache struct {
 	cacheList []*Node
 	cacheMap  map[int]int

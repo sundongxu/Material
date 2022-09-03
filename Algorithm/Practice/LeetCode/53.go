@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 53. Maximum Subarray
+ * 描述：
+ * 难度：Medium
+ * 类型：DP
+ */
 // 数组中包含负数，找出和最大的子序列
 // 暴力枚举法超时，时间复杂度O(n^2)，得想想有没有O(n)的解法，比如动态规划？
 //func MaxSubArray(nums []int) int {

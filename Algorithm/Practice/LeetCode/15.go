@@ -2,6 +2,12 @@ package LeetCode
 
 import "sort"
 
+/**
+ * 15. 3Sum
+ * 描述：
+ * 难度：Medium
+ * 类型：Array
+ */
 func ThreeSum(nums []int) [][]int {
 	if len(nums) <= 2 {
 		return [][]int{}

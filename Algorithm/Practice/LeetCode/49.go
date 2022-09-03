@@ -2,7 +2,12 @@ package LeetCode
 
 import "sort"
 
-// 49. Group Anagrams
+/**
+ * 49. Group Anagrams
+ * 描述：
+ * 难度：Medium
+ * 类型：String
+ */
 type sortRunes []rune
 
 func (s sortRunes) Less(i, j int) bool {

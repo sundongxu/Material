@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 64. Minimum Path Sum
+ * 描述：
+ * 难度：Medium
+ * 类型：DP
+ */
 // 令f[i][j]为走到点(i,j)的最小路径和
 // 状态转移方程为：f[i][j] = min(f[i-1][j], f[i][j-1]) + grid[i][j]
 func minPathSum(grid [][]int) int {

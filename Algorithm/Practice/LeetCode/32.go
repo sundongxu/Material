@@ -1,9 +1,13 @@
 package LeetCode
 
-// 32. Longest Valid Parentheses
+/**
+ * 32. Longest Valid Parentheses
+ * 描述：
+ * 难度：Hard
+ * 类型：Stack
+ */
 // 利用栈
 // 这里需要计算嵌套括号的总长度，所以栈里面不能单纯的存左括号，而应该存左括号在原字符串的下标，这样通过下标相减可以获取长度
-
 func longestValidParentheses(s string) int {
 	stack, res := make([]int, 0), 0
 	stack = append(stack, -1)

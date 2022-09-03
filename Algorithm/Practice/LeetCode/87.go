@@ -1,6 +1,11 @@
 package LeetCode
 
-// 87. Scramble String
+/**
+ * 87. Scramble String
+ * 描述：
+ * 难度：Hard
+ * 类型：DP
+ */
 // 动规
 // 令f(s1,s2)表示s1和s2是否和谐
 // 情况1：对于l(s1)和r(s1)没有被交换的情况，那么s2同样需要被分为s2(0,i)以及s2(i,n-i)

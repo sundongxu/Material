@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 47. Permutations II
+ * 描述：
+ * 难度：Medium
+ * 类型：Backtracking
+ */
 func PermuteUnique(nums []int) [][]int {
 	if len(nums) <= 1 {
 		return [][]int{nums}
@@ -13,7 +19,7 @@ func PermuteUnique(nums []int) [][]int {
 	for k, _ := range counter {
 		uniqueNums = append(uniqueNums, k)
 	}
-	
+
 	res, permutation, pCounter := make([][]int, 0), make([]int, 0), make(map[int]int)
 	findPermuteUnique(len(nums), uniqueNums, counter, permutation, pCounter, &res)
 	return res

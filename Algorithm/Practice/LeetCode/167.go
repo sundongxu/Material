@@ -1,6 +1,11 @@
 package LeetCode
 
-// 167. Two Sum II - Input Array Is Sorted
+/**
+ * 167. Two Sum II - Input Array Is Sorted
+ * 描述：
+ * 难度：Medium
+ * 类型：Math
+ */
 func twoSum(numbers []int, target int) []int {
 	i, j := 0, len(numbers)-1
 	for i < j {

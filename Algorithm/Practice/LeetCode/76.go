@@ -1,7 +1,11 @@
 package LeetCode
 
-// 76. Minimum Window Substring
-
+/**
+ * 76. Minimum Window Substring
+ * 描述：
+ * 难度：Hard
+ * 类型：String
+ */
 func minWindow(s string, t string) string {
 	if s == "" || t == "" {
 		return ""

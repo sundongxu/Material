@@ -5,6 +5,12 @@ import (
 	"sort"
 )
 
+/**
+ * 16. 3Sum Closest
+ * 描述：
+ * 难度：Medium
+ * 类型：Array
+ */
 func abs(a int) int {
 	if a > 0 {
 		return a

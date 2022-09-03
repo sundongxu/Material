@@ -2,7 +2,12 @@ package LeetCode
 
 import "math"
 
-// 188. Best Time to Buy and Sell Stock IV
+/**
+ * 188. Best Time to Buy and Sell Stock IV
+ * 描述：
+ * 难度：Hard
+ * 类型：DP
+ */
 // 解法一：二维动规
 // 与其余的股票问题类似，我们使用一系列变量存储「买入」的状态，再用一系列变量存储「卖出」的状态，通过动态规划的方法即可解决本题。
 // 用 buy[i][j]表示对于数组prices[0..i]中的价格而言，进行恰好j笔交易，并且当前手上持有一支股票，这种情况下的最大利润

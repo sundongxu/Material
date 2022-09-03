@@ -2,6 +2,12 @@ package LeetCode
 
 import "sort"
 
+/**
+ * 18. 4Sum
+ * 描述：
+ * 难度：Medium
+ * 类型：Array
+ */
 func fourSum(nums []int, target int) [][]int {
 	if len(nums) <= 2 {
 		return [][]int{}

@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 6. Zigzag Conversion
+ * 描述：
+ * 难度：Medium
+ * 类型：String
+ */
 func Convert(s string, numRows int) string {
 	if numRows == 1 {
 		return s

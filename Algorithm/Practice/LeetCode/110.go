@@ -1,6 +1,11 @@
 package LeetCode
 
-// 110. Balanced Binary Tree
+/**
+ * 110. Balanced Binary Tree
+ * 描述：
+ * 难度：Easy
+ * 类型：Tree & Recursion
+ */
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {

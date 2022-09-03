@@ -4,7 +4,12 @@ import (
 	"strings"
 )
 
-// 140. Word Break II
+/**
+ * 140. Word Break II
+ * 描述：
+ * 难度：Hard
+ * 类型：DP
+ */
 // 同139，令f[i]表示s[0,i]是否可以分词，可分词为true，否则为false
 // 状态转移方程为：f[i] = any_of(f[j] && s[j+1, i] => dict)，0<=j<i
 // 另令prev[i][j]表示s[j,i)是否是一个合法单词，合法则为true，否则为false，可以从j处切开

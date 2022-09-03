@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 3. Longest Substring Without Repeating Characters
+ * 描述：
+ * 难度：Medium
+ * 类型：String
+ */
 func lengthOfLongestSubstring(s string) int {
 	if len(s) == 0 {
 		return 0

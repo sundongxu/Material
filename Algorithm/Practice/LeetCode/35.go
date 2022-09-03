@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 35. Search Insert Position
+ * 描述：
+ * 难度：Easy
+ * 类型：Array & Binary Search
+ */
 func SearchInsert(nums []int, target int) int {
 	// nums = [1,3,5,6]
 	left, right := 0, len(nums)-1

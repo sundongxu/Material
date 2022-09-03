@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 119. Pascal's Triangle II
+ * 描述：
+ * 难度：Easy
+ * 类型：Array & Math
+ */
 func getRow(rowIndex int) []int {
 	numRows := rowIndex + 1
 	res := make([][]int, rowIndex+1)

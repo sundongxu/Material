@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 33. Search in Rotated Sorted Array
+ * 描述：
+ * 难度：Medium
+ * 类型：Array & Binary Search
+ */
 // rotated sorted array => binary search
 // all elements are unique
 func search1(nums []int, target int) int {

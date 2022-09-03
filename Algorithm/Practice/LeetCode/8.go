@@ -2,7 +2,12 @@ package LeetCode
 
 import "math"
 
-// 8. String to Integer (atoi)
+/**
+ * 8. String to Integer (atoi)
+ * 描述：
+ * 难度：Medium
+ * 类型：String & Math
+ */
 func myAtoi(s string) int {
 	num, sign, n := 0, 1, len(s)
 	i := 0

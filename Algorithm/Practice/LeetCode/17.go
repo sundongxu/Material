@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 17. Letter Combinations of a Phone Number
+ * 描述：
+ * 难度：Medium
+ * 类型：DFS
+ */
 var digitLetterMap = map[string]string{
 	"2": "abc",
 	"3": "def",

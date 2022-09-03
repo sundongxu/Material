@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 79. Word Search
+ * 描述：
+ * 难度：Medium
+ * 类型：Matrix & DFS
+ */
 func exist(board [][]byte, word string) bool {
 	m := len(board)
 	if m == 0 {

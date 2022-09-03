@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 73. Set Matrix Zeroes
+ * 描述：
+ * 难度：Medium
+ * 类型：Matrix
+ */
 // 时间复杂度：O(m*n)
 // 空间复杂度：O(m+n)
 func setZeroes(matrix [][]int) {

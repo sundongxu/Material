@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 22. Generate Parentheses
+ * 描述：
+ * 难度：Medium
+ * 类型：DFS
+ */
 // 【DFS】
 func generateParenthesis(n int) []string {
 	if n == 0 {

@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 189. Rotate Array
+ * 描述：
+ * 难度：Medium
+ * 类型：Array
+ */
 // 空间复杂度O(n)
 // nums数组的第i个元素，右移k位后的位置为：(i+k) % len(nums)
 //func rotate(nums []int, k int) {

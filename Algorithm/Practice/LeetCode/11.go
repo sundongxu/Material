@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 11. Container With Most Water
+ * 描述：
+ * 难度：Medium
+ * 类型：Two Pointer
+ */
 func MaxArea(height []int) int {
 	result := 0
 	minHeight := 0

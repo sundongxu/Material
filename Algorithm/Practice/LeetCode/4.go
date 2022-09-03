@@ -1,6 +1,11 @@
 package LeetCode
 
-// 4. Median of Two Sorted Arrays
+/**
+ * 4. Median of Two Sorted Arrays
+ * 描述：
+ * 难度：Hard
+ * 类型：Array
+ */
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	m, n := len(nums1), len(nums2)
 	total := m + n

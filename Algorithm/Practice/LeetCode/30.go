@@ -1,7 +1,11 @@
 package LeetCode
 
-// 30. Substring with Concatenation of All Words
-
+/**
+ * 30. Substring with Concatenation of All Words
+ * 描述：
+ * 难度：Hard
+ * 类型：String
+ */
 func findSubstring(s string, words []string) []int {
 	wordLen := len(words[0])
 	totalWordLen := wordLen * len(words)

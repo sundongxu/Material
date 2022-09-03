@@ -1,6 +1,11 @@
 package LeetCode
 
-// 52. N-Queens II
+/**
+ * 52. N-Queens II
+ * 描述：
+ * 难度：Hard
+ * 类型：Backtracking
+ */
 func totalNQueens(n int) int {
 	positions := make([]int, n) // 第i个元素的值positions[i]表示，第i行第positions[i]列放置皇后
 	for i, _ := range positions {

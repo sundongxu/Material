@@ -1,6 +1,12 @@
 package LeetCode
 
 /**
+ * 19. Remove Nth Node From End of List
+ * 描述：
+ * 难度：Medium
+ * 类型：Linked List
+ */
+/**
  * Definition for singly-linked list.
  * type ListNode struct {
  *     Val int

@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 5. Longest Palindromic Substring
+ * 描述：
+ * 难度：Medium
+ * 类型：String
+ */
 func LongestPalindrome(s string) string {
 	if len(s) == 0 {
 		return ""

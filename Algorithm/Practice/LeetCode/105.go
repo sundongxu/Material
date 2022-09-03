@@ -1,6 +1,11 @@
 package LeetCode
 
-// 105. Construct Binary Tree from Preorder and Inorder Traversal
+/**
+ * 105. Construct Binary Tree from Preorder and Inorder Traversal
+ * 描述：
+ * 难度：Medium
+ * 类型：Tree & Recursion
+ */
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {

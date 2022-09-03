@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 77. Combinations
+ * 描述：
+ * 难度：Medium
+ * 类型：Backtracking
+ */
 //func Combine(n int, k int) [][]int {
 //	nums := make([]int, 0)
 //	i := 1

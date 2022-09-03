@@ -2,6 +2,12 @@ package LeetCode
 
 import "strings"
 
+/**
+ * 151. Reverse Words in a String
+ * 描述：
+ * 难度：Medium
+ * 类型：String
+ */
 func reverseWords(s string) string {
 	words := strings.Fields(s)
 	return strings.Join(reverseArray(words), " ")

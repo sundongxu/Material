@@ -1,7 +1,11 @@
 package LeetCode
 
-// 144. Binary Tree Preorder Traversal
-
+/**
+ * 144. Binary Tree Preorder Traversal
+ * 描述：
+ * 难度：Easy
+ * 类型：Tree & Recursion & Stack
+ */
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {

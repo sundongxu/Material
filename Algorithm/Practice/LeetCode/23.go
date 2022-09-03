@@ -1,6 +1,11 @@
 package LeetCode
 
-// 23. Merge k Sorted Lists
+/**
+ * 23. Merge k Sorted Lists
+ * 描述：
+ * 难度：Hard
+ * 类型：Linked List
+ */
 /**
  * Definition for singly-linked list.
  * type ListNode struct {

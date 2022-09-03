@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 81. Search in Rotated Sorted Array II
+ * 描述：
+ * 难度：Medium
+ * 类型：Array & Binary Search & Recursion
+ */
 // rotated sorted array => binary search
 // elements may not be unique
 // 解法同33

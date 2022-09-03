@@ -2,7 +2,12 @@ package LeetCode
 
 import "math"
 
-// 29. Divide Two Integers
+/**
+ * 29. Divide Two Integers
+ * 描述：
+ * 难度：Medium
+ * 类型：Math
+ */
 func divide(dividend int, divisor int) int {
 	var a, b, result int64
 	a, b = int64(dividend), int64(divisor)

@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 20. Valid Parentheses
+ * 描述：
+ * 难度：Easy
+ * 类型：Stack
+ */
 func isValid(s string) bool {
 	if len(s) == 0 {
 		return true

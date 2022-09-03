@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 116. Populating Next Right Pointers in Each Node
+ * 描述：
+ * 难度：Medium
+ * 类型：Tree & Recursion
+ */
 // Definition for a Node.
 type Node struct {
 	Val   int

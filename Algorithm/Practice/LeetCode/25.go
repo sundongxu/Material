@@ -1,6 +1,11 @@
 package LeetCode
 
-// 25. Reverse Nodes in k-Group
+/**
+ * 25. Reverse Nodes in k-Group
+ * 描述：
+ * 难度：Hard
+ * 类型：Linked List
+ */
 /**
  * Definition for singly-linked list.
  * type ListNode struct {

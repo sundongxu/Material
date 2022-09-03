@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 36. Valid Sudoku
+ * 描述：
+ * 难度：Medium
+ * 类型：Matrix
+ */
 func isValidSudoku(board [][]byte) bool {
 	// 检查横行是否合法
 	for i := 0; i < 9; i++ {

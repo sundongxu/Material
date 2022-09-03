@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 90. Subsets II
+ * 描述：
+ * 难度：Medium
+ * 类型：Backtracking
+ */
 func SubsetsWithDup(nums []int) [][]int {
 	if len(nums) == 0 {
 		return [][]int{}

@@ -1,6 +1,11 @@
 package LeetCode
 
-// 199. Binary Tree Right Side View
+/**
+ * 199. Binary Tree Right Side View
+ * 描述：
+ * 难度：Medium
+ * 类型：Tree & Queue
+ */
 // 本质是层次遍历取每层最后一个元素
 func rightSideView(root *TreeNode) []int {
 	if root == nil {

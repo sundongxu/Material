@@ -1,6 +1,11 @@
 package LeetCode
 
-// 57. Insert Interval
+/**
+ * 57. Insert Interval
+ * 描述：
+ * 难度：Medium
+ * 类型：Array Interval
+ */
 // 区间数组已经按区间起点大小升序排列
 func insert(intervals [][]int, newInterval []int) [][]int {
 	res := make([][]int, 0)

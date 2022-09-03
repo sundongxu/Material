@@ -1,6 +1,11 @@
 package LeetCode
 
-// 115. Distinct Subsequences
+/**
+ * 115. Distinct Subsequences
+ * 描述：
+ * 难度：Hard
+ * 类型：DP
+ */
 // 动规
 // 假设m和n分别为字符串s和t的长度
 // 当m≥n时，可以通过动态规划的方法计算在s的子序列中t出现的个数

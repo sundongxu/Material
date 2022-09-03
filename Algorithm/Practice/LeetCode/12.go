@@ -1,6 +1,11 @@
 package LeetCode
 
-// 12. Integer to Roman
+/**
+ * 12. Integer to Roman
+ * 描述：
+ * 难度：Medium
+ * 类型：String & Math
+ */
 func intToRoman(num int) string {
 	values := []int{1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1}
 	symbols := []string{"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"}

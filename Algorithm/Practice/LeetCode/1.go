@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 1. Two Sum
+ * 描述：
+ * 难度：Easy
+ * 类型：Array
+ */
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
 	for i, num := range nums {

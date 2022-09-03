@@ -2,7 +2,12 @@ package LeetCode
 
 import "sort"
 
-// 128. Longest Consecutive Sequence
+/**
+ * 128. Longest Consecutive Sequence
+ * 描述：
+ * 难度：Medium
+ * 类型：Array
+ */
 // 数组无序，要求时间复杂度O(n)
 func longestConsecutive(nums []int) int {
 	longest := 0

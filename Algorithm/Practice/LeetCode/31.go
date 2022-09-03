@@ -2,6 +2,12 @@ package LeetCode
 
 import "sort"
 
+/**
+ * 31. Next Permutation
+ * 描述：
+ * 难度：Medium
+ * 类型：Array & Math
+ */
 // what about find previous permutations ?
 func nextPermutation(nums []int) {
 	// nums=[1,2,4,3]

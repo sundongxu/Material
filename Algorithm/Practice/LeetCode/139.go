@@ -1,6 +1,11 @@
 package LeetCode
 
-// 139. Word Break
+/**
+ * 139. Word Break
+ * 描述：
+ * 难度：Medium
+ * 类型：DP
+ */
 // 令f[i]表示s[0,i]是否可以分词，可分词为true，否则为false
 // 状态转移方程为：f[i] = any_of(f[j] && s[j+1, i] => dict)，0<=j<i
 func wordBreak(s string, wordDict []string) bool {

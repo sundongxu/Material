@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 138. Copy List with Random Pointer
+ * 描述：
+ * 难度：Medium
+ * 类型：Linked List
+ */
 // Definition for a Node.
 type Node struct {
 	Val    int

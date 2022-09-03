@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 78. Subsets
+ * 描述：
+ * 难度：Medium
+ * 类型：Backtracking
+ */
 //func Subsets(nums []int) [][]int {
 //	if len(nums) == 0 {
 //		return [][]int{}
@@ -22,7 +28,7 @@ package LeetCode
 //	for i := index; i < len(nums); i++ {
 //		subset = append(subset, nums[i]) // choose nums[i]
 //		findSubsets(nums, subset, i+1, n, res)
-//		subset = subset[:len(subset)-1] // or not => backtrace
+//		subset = subset[:len(subset)-1] // or not => backtrack
 //	}
 //}
 

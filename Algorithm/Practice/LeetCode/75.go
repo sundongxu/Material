@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 75. Sort Colors
+ * 描述：
+ * 难度：Medium
+ * 类型：Two Pointer
+ */
 func sortColors(nums []int) {
 	zeroIndex, oneIndex := 0, 0
 	for i, n := range nums {

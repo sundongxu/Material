@@ -1,6 +1,11 @@
 package LeetCode
 
-// 97. Interleaving String
+/**
+ * 97. Interleaving String
+ * 描述：
+ * 难度：Medium
+ * 类型：DP
+ */
 // 动规
 // 令f(i,j)表示s1的前i个元素和s2的前j个元素是否能交错构成s3的前i+j个元素
 // 如果s1的第i个元素和s3的第i+j个元素相等

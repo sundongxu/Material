@@ -1,6 +1,11 @@
 package LeetCode
 
-// 69. Sqrt(x)
+/**
+ * 69. Sqrt(x)
+ * 描述：
+ * 难度：Easy
+ * 类型：Math & Binary Search
+ */
 func mySqrt(x int) int {
 	if x < 2 {
 		return x

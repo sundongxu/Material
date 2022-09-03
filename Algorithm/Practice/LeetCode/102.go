@@ -1,6 +1,11 @@
 package LeetCode
 
-// 102. Binary Tree Level Order Traversal
+/**
+ * 102. Binary Tree Level Order Traversal
+ * 描述：
+ * 难度：Medium
+ * 类型：Tree & Queue & BFS
+ */
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {

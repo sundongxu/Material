@@ -5,7 +5,12 @@ import (
 	"strings"
 )
 
-// 71. Simplify Path
+/**
+ * 71. Simplify Path
+ * 描述：
+ * 难度：Medium
+ * 类型：Stack
+ */
 func simplifyPath(path string) string {
 	return filepath.Clean(path)
 }

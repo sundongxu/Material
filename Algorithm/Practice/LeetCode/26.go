@@ -20,6 +20,12 @@ package LeetCode
 //	return k
 //}
 
+/**
+ * 26. Remove Duplicates from Sorted Array
+ * 描述：
+ * 难度：Easy
+ * 类型：Array
+ */
 // do not care what left except the first k elements
 func removeDuplicates(nums []int) int {
 	k := 0

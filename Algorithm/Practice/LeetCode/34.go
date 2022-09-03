@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 34. Find First and Last Position of Element in Sorted Array
+ * 描述：
+ * 难度：Medium
+ * 类型：Array & Binary Search
+ */
 func SearchRange(nums []int, target int) []int {
 	// nums = [5,7,7,8,8,10]
 	left, right := 0, len(nums)-1

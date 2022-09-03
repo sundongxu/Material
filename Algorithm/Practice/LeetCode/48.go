@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 48. Rotate Image
+ * 描述：
+ * 难度：Medium
+ * 类型：Matrix
+ */
 // 方法一：先沿着副对角线翻转一次，再沿着水平中线翻转一次
 func rotate(matrix [][]int) {
 	if len(matrix) == 0 {

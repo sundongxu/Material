@@ -2,7 +2,12 @@ package LeetCode
 
 import "strconv"
 
-// 60. Permutation Sequence
+/**
+ * 60. Permutation Sequence
+ * 描述：
+ * 难度：Hard
+ * 类型：Math & Recursion
+ */
 // 康托展开式：X = a[n]*(n-1)! + a[n-1]*(n-2)! + … + a[i]*(i-1)! + … + a[2]*1! + a[1]*0!
 func factorial(i int) int {
 	f := 1

@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 59. Spiral Matrix II
+ * 描述：
+ * 难度：Medium
+ * 类型：Matrix
+ */
 func GenerateMatrix(n int) [][]int {
 	left, up := 0, 0
 	right, down := n-1, n-1

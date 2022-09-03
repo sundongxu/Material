@@ -1,6 +1,11 @@
 package LeetCode
 
-// 103. Binary Tree Zigzag Level Order Traversal
+/**
+ * 103. Binary Tree Zigzag Level Order Traversal
+ * 描述：
+ * 难度：Medium
+ * 类型：Tree & BFS & Recursion
+ */
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {

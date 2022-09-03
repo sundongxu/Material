@@ -2,7 +2,12 @@ package LeetCode
 
 import "strconv"
 
-// 67. Add Binary
+/**
+ * 67. Add Binary
+ * 描述：
+ * 难度：Easy
+ * 类型：Array & Math
+ */
 // 难点在于如何去除前导0，因为可能有溢出问题，所以不能直接转为Atoi再Itoa
 func addBinary(a string, b string) string {
 	totalLen := max(len(a), len(b)) + 1

@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 46. Permutations
+ * 描述：
+ * 难度：Medium
+ * 类型：Backtracking
+ */
 func Permute(nums []int) [][]int {
 	if len(nums) <= 1 {
 		return [][]int{nums}

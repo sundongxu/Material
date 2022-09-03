@@ -1,6 +1,11 @@
 package LeetCode
 
-// 10. Regular Expression Matching
+/**
+ * 10. Regular Expression Matching
+ * 描述：
+ * 难度：Hard
+ * 类型：String
+ */
 func isMatch(s string, p string) bool {
 	return isMatchHelper(s, p, 0, 0)
 }

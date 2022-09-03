@@ -1,6 +1,11 @@
 package LeetCode
 
-// 65. Valid Number
+/**
+ * 65. Valid Number
+ * 描述：
+ * 难度：Hard
+ * 类型：String & Math
+ */
 func isNumber(s string) bool {
 	// 用一组标志位分别记录当前遍历字符前序字符的情况
 	numFlag, dotFlag, eFlag := false, false, false

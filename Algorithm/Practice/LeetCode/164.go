@@ -1,6 +1,11 @@
 package LeetCode
 
-// 164. Maximum Gap
+/**
+ * 164. Maximum Gap
+ * 描述：
+ * 难度：Hard
+ * 类型：Sort
+ */
 // 解法一：快排，时间和空间复杂度达不到，但可AC
 func maximumGap(nums []int) int {
 	if len(nums) < 2 {

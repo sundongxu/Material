@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 122. Best Time to Buy and Sell Stock II
+ * 描述：
+ * 难度：Medium
+ * 类型：Greedy
+ */
 func maxProfit(prices []int) int {
 	if len(prices) == 0 {
 		return 0

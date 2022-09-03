@@ -1,6 +1,11 @@
 package LeetCode
 
-// 96. Unique Binary Search Trees
+/**
+ * 96. Unique Binary Search Trees
+ * 描述：
+ * 难度：Medium
+ * 类型：DP
+ */
 // 动态规划
 // 假设f(i)表示由数1～n能构成的二叉搜索树数量
 // 假设F(i,n)表示以数i为根节点，由数1～n能构成的二叉搜索树数量

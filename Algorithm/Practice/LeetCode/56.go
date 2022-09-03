@@ -1,6 +1,11 @@
 package LeetCode
 
-// 56. Merge Intervals
+/**
+ * 56. Merge Intervals
+ * 描述：
+ * 难度：Medium
+ * 类型：Array Interval
+ */
 // 思路：先按照区间起点进行排序。然后从区间起点小的开始扫描，依次合并每个有重叠的区间。
 func merge(intervals [][]int) [][]int {
 	if len(intervals) == 0 {

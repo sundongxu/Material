@@ -2,6 +2,12 @@ package LeetCode
 
 import "math"
 
+/**
+ * 120. Triangle
+ * 描述：
+ * 难度：Medium
+ * 类型：DP
+ */
 // 令f[i][j]为到点(i,j)的最小路径和
 // 状态转移方程为：f[i][j] = max(f[i-1][j-1], f[i-1][j]) + triangle[i][j]
 func minimumTotal(triangle [][]int) int {

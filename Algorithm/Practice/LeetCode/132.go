@@ -1,6 +1,11 @@
 package LeetCode
 
-// 132. Palindrome Partitioning II
+/**
+ * 132. Palindrome Partitioning II
+ * 描述：
+ * 难度：Hard
+ * 类型：DP
+ */
 // 令f[i]为区间[i,n-1]之间最小的cut次数，n为字符串长度
 // 状态转移方程为: f[i] = min{f(j+1)+1}, i<=j<=n
 // 令p[i]为[j]区间[i,j]对应子串是否为回文串

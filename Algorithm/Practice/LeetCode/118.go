@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 118. Pascal's Triangle
+ * 描述：
+ * 难度：Easy
+ * 类型：Array & Math
+ */
 func generate(numRows int) [][]int {
 	res := make([][]int, numRows)
 	for i := 0; i < numRows; i++ {

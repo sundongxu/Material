@@ -2,6 +2,12 @@ package LeetCode
 
 import "sort"
 
+/**
+ * 40. Combination Sum II
+ * 描述：
+ * 难度：Medium
+ * 类型：backtracking
+ */
 func CombinationSum2(candidates []int, target int) [][]int {
 	if len(candidates) == 0 {
 		return [][]int{}

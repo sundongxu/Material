@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 88. Merge Sorted Array
+ * 描述：
+ * 难度：Easy
+ * 类型：Array
+ */
 func merge(nums1 []int, m int, nums2 []int, n int) {
 	i1, i2, icur := m-1, n-1, m+n-1
 	for i1 >= 0 && i2 >= 0 {

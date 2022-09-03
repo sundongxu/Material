@@ -2,6 +2,12 @@ package LeetCode
 
 import "fmt"
 
+/**
+ * 160. Intersection of Two Linked Lists
+ * 描述：
+ * 难度：Easy
+ * 类型：Linked List
+ */
 // Definition for singly-linked list.
 //type ListNode struct {
 //	Val  int

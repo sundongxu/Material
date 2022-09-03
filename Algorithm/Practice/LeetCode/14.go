@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 14. Longest Common Prefix
+ * 描述：
+ * 难度：Easy
+ * 类型：String
+ */
 func LongestCommonPrefix(strs []string) string {
 	if len(strs) == 0 {
 		return ""

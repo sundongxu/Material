@@ -2,7 +2,12 @@ package LeetCode
 
 import "strings"
 
-// 68. Text Justification
+/**
+ * 68. Text Justification
+ * 描述：
+ * 难度：Hard
+ * 类型：String
+ */
 // blank 返回长度为 n 的由空格组成的字符串
 func blank(n int) string {
 	return strings.Repeat(" ", n)

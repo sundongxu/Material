@@ -2,7 +2,12 @@ package LeetCode
 
 import "strings"
 
-// 51. N-Queens
+/**
+ * 51. N-Queens
+ * 描述：
+ * 难度：Hard
+ * 类型：Backtracking
+ */
 // 同一行、同一列、同一斜线上的皇后都会自动攻击
 func solveNQueens(n int) [][]string {
 	res := make([][]string, 0)

@@ -1,6 +1,11 @@
 package LeetCode
 
-// 58. Length of Last Word
+/**
+ * 58. Length of Last Word
+ * 描述：
+ * 难度：Easy
+ * 类型：String
+ */
 func lengthOfLastWord(s string) int {
 	last := len(s) - 1
 	for last >= 0 && s[last] == ' ' {

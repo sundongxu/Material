@@ -5,6 +5,12 @@ import (
 	"strconv"
 )
 
+/**
+ * 7. Reverse Integer
+ * 描述：
+ * 难度：Medium
+ * 类型：String & Math
+ */
 func reverse(s string) string {
 	r := []byte(s)
 	for i, j := 0, len(r)-1; i < j; i, j = i+1, j-1 {

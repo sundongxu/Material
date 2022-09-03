@@ -1,6 +1,11 @@
 package LeetCode
 
-// 111. Minimum Depth of Binary Tree
+/**
+ * 111. Minimum Depth of Binary Tree
+ * 描述：
+ * 难度：Easy
+ * 类型：Tree & Recursion
+ */
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {

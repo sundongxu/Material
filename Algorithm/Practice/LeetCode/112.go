@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 112. Path Sum
+ * 描述：
+ * 难度：Easy
+ * 类型：Tree & Recursion
+ */
 // TreeNode Definition for a binary tree node.
 type TreeNode struct {
 	Val   int

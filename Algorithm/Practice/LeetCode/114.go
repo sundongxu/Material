@@ -1,6 +1,11 @@
 package LeetCode
 
-// 114. Flatten Binary Tree to Linked List
+/**
+ * 114. Flatten Binary Tree to Linked List
+ * 描述：
+ * 难度：Medium
+ * 类型：Tree & Recursion
+ */
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {

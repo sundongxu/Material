@@ -2,7 +2,12 @@ package LeetCode
 
 import "strings"
 
-// 28. Implement strStr()
+/**
+ * 28. Implement strStr()
+ * 描述：
+ * 难度：Easy
+ * 类型：String
+ */
 func strStr(haystack string, needle string) int {
 	return strings.Index(haystack, needle)
 }

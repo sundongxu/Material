@@ -1,6 +1,11 @@
 package LeetCode
 
-// 149. Max Points on a Line
+/**
+ * 149. Max Points on a Line
+ * 描述：
+ * 难度：Hard
+ * 类型：
+ */
 // 时间复杂度：O(n^2 * logm)其中n为点的数量，m为横纵坐标差的最大值
 // 最坏情况下我们需要枚举所有n个点
 // 枚举单个点过程中需要进行O(n)次最大公约数计算

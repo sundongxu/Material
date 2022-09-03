@@ -1,6 +1,11 @@
 package LeetCode
 
-// 50. Pow(x, n)
+/**
+ * 50. Pow(x, n)
+ * 描述：
+ * 难度：Medium
+ * 类型：Math & Recursion
+ */
 // x^n = x^(n/2) * x^(n/2) * x^(n%2)
 // n%2=0(n为偶数)，1(n为奇数)
 // 所以n为偶数时，x^n = x^(n/2) * x^(n/2)

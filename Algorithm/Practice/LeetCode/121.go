@@ -2,6 +2,12 @@ package LeetCode
 
 import "math"
 
+/**
+ * 121. Best Time to Buy and Sell Stock
+ * 描述：
+ * 难度：Easy
+ * 类型：Greedy
+ */
 // 暴力枚举，超时，时间复杂度O(n^2)
 //func maxProfit(prices []int) int {
 //	max := math.MinInt

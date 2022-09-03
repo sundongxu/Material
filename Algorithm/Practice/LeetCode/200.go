@@ -1,6 +1,11 @@
 package LeetCode
 
-// 200. Number of Islands
+/**
+ * 200. Number of Islands
+ * 描述：
+ * 难度：Medium
+ * 类型：Matrix
+ */
 // 解法一
 var dir = [][]int{
 	[]int{-1, 0},

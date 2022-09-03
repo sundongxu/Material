@@ -1,6 +1,11 @@
 package LeetCode
 
-// 85. Maximal Rectangle
+/**
+ * 85. Maximal Rectangle
+ * 描述：
+ * 难度：Hard
+ * 类型：Matrix
+ */
 func maximalRectangle(matrix [][]byte) int {
 	if len(matrix) == 0 {
 		return 0

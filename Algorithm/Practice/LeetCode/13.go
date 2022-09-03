@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 13. Roman to Integer
+ * 描述：
+ * 难度：Easy
+ * 类型：String & Math
+ */
 var roman = map[string]int{
 	"I": 1,
 	"V": 5,
@@ -10,7 +16,6 @@ var roman = map[string]int{
 	"M": 1000,
 }
 
-// 13. Roman to Integer
 // 思路：从前往后扫描，如果发现当前元素比前一个元素大，说明需要用当前元素减去前一个元素
 func romanToInt(s string) int {
 	if s == "" {

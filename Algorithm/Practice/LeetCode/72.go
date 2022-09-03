@@ -1,6 +1,11 @@
 package LeetCode
 
-// 72. Edit Distance
+/**
+ * 72. Edit Distance
+ * 描述：
+ * 难度：Hard
+ * 类型：DP
+ */
 // 动规
 // 令f[i][j]表示A[0,i]和B[0,j]之间的最小编辑距离
 // 设A[0,i]的形式是str1c，B[0,j]的形式是str2d

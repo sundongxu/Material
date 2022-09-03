@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 74. Search a 2D Matrix
+ * 描述：
+ * 难度：Medium
+ * 类型：Matrix
+ */
 // 每次都找右上角的元素，假定它不等于目标值，如果比目标值小，那么可以排除其所在行，否则，则可以排除其所在列
 func searchMatrix(matrix [][]int, target int) bool {
 	if len(matrix) == 0 {

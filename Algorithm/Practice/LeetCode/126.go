@@ -1,6 +1,11 @@
 package LeetCode
 
-// 126. Word Ladder II
+/**
+ * 126. Word Ladder II
+ * 描述：
+ * 难度：Hard
+ * 类型：Graph & BFS & Backtracking
+ */
 // 把只相差一个字符的单词之间用边连接，构成一个图
 // 思路：图的广度优先搜索+回溯
 func findLadders(beginWord string, endWord string, wordList []string) [][]string {

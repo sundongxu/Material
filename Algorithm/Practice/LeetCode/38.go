@@ -2,7 +2,12 @@ package LeetCode
 
 import "strconv"
 
-// 38. Count and Say
+/**
+ * 38. Count and Say
+ * 描述：
+ * 难度：Medium
+ * 类型：String
+ */
 // 难度在于理解题意，本质是一个递推公式
 // n = 1 => countAndSay(1) => 1，初始值
 // n = 2 => countAndSay(2) => 如何读n=1的结果 => 如何读countAndSay(1) => 如何读1 => 1个1 => 11

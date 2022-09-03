@@ -1,5 +1,11 @@
 package LeetCode
 
+/**
+ * 37. Sudoku Solver
+ * 描述：
+ * 难度：Hard
+ * 类型：Matrix + Backtracking
+ */
 type position struct {
 	x int
 	y int

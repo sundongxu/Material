@@ -1,6 +1,11 @@
 package LeetCode
 
-// 104. Maximum Depth of Binary Tree
+/**
+ * 104. Maximum Depth of Binary Tree
+ * 描述：
+ * 难度：Medium
+ * 类型：Tree & Recursion
+ */
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {

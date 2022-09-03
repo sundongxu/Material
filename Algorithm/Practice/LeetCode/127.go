@@ -1,6 +1,11 @@
 package LeetCode
 
-// 127. Word Ladder
+/**
+ * 127. Word Ladder
+ * 描述：
+ * 难度：Hard
+ * 类型：BFS
+ */
 // 广度优先搜索BFS，按层次遍历所有可能，每层多个元素，需要把当前层所有元素遍历完毕后才能推进到下一层，类似树层次遍历
 func ladderLength(beginWord string, endWord string, wordList []string) int {
 	wordMap, queue, depth := getWordMap(wordList, beginWord), []string{beginWord}, 0

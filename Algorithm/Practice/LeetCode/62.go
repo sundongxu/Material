@@ -1,6 +1,11 @@
 package LeetCode
 
-// 62. Unique Paths
+/**
+ * 62. Unique Paths
+ * 描述：
+ * 难度：Medium
+ * 类型：DP
+ */
 // 动态规划
 // 令f[i][j]为走到点(i,j)的路径条数
 // f[0][j]代表第0行，第j列，因为只能一直往右走，所以能直接算出

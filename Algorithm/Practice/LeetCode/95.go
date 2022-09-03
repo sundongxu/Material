@@ -1,6 +1,11 @@
 package LeetCode
 
-// 95. Unique Binary Search Trees II
+/**
+ * 95. Unique Binary Search Trees II
+ * 描述：
+ * 难度：Medium
+ * 类型：Tree + Recursion
+ */
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {

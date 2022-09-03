@@ -1,7 +1,11 @@
 package LeetCode
 
-// 145. Binary Tree Postorder Traversal
-
+/**
+ * 145. Binary Tree Postorder Traversal
+ * 描述：
+ * 难度：Easy
+ * 类型：Tree & Recursion & Stack
+ */
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {

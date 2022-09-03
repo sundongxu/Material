@@ -2,6 +2,12 @@ package LeetCode
 
 import "strings"
 
+/**
+ * 125. Valid Palindrome
+ * 描述：
+ * 难度：Easy
+ * 类型：String
+ */
 func isPalindrome(s string) bool {
 	s = strings.ToLower(s)
 	i, j := 0, len(s)-1
