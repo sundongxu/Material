@@ -14,6 +14,7 @@ type Node struct {
 	Next  *Node
 }
 
+// 完美二叉树
 // 递归1
 func connect(root *Node) *Node {
 	return connectHelper(root, nil)
